@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "83163224804",
+    "project_id": "fir-berson",
+    "storage_bucket": "fir-berson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83163224804:android:ecad5a4d67dc9d0d4eeaf1",
+        "android_client_info": {
+          "package_name": "com.example.firebase_berson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83163224804-cgdu1v8v4nrr0eg6d993k94j11lmd8nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_berson",
+            "certificate_hash": "4a1a7a28d69ec677727d99be10b38827abe36277"
+          }
+        },
+        {
+          "client_id": "83163224804-lmlifp3kdrobc3lli866csktnspq61mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSI202_p50JyUqI2AgieC3XWNxqPOJ9DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83163224804-lmlifp3kdrobc3lli866csktnspq61mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
