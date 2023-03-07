@@ -16,23 +16,31 @@ readData() {
                       width: double.infinity,
                       height: 80,
                       child: Card(
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(5)),
-                        elevation: 5,
-                        color: Colors.white,
-                        child: Column(
-                          children: [
-                            const Text('أسم الشخص',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold)),
-                            Text(docs[index]['name'],
-                                style: const TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.bold)),
-                          ],
+                        child: ListTile(
+                          title: Text(docs[index]['name']),
+                          subtitle: Text(docs[index]['age']),
+                          leading: Text(docs[index]['gender']),
+                          trailing: Text(docs[index]['date']),
                         ),
                       ),
+                      // Card(
+                      //   shape: RoundedRectangleBorder(
+                      //       borderRadius: BorderRadius.circular(5)),
+                      //   elevation: 5,
+                      //   color: Colors.white,
+                      //   child: Column(
+                      //     children: [
+                      //       const Text('أسم الشخص',
+                      //           style: TextStyle(
+                      //               color: Colors.black,
+                      //               fontWeight: FontWeight.bold)),
+                      //       Text(docs[index]['name'],
+                      //           style: const TextStyle(
+                      //               color: Colors.black,
+                      //               fontWeight: FontWeight.bold)),
+                      //     ],
+                      //   ),
+                      // ),
                     )
                 //  Card(
 
